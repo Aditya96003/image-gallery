@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.BUTTONS {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buttonF {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttonF:hover {
+    background-color: black;
+}
+
+.imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.hide {
+    display: none;
+}
